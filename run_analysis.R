@@ -113,6 +113,8 @@ dftbl <- tbl_df(Matrix)
 
 print("Subsetting data to retain the means and standard deviations ...")
 meanStd <- select(dftbl, subj, actyNum, contains("mean"), contains("std"))
+# but not the angles
+meanStd <- select(meanStd, -contains("angle"))
 print("Let's take a look at a small sample of the data frame ...")
 print(meanStd[1:5,1:4])
 
