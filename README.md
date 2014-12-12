@@ -25,8 +25,8 @@ The R Script run_analysis.R performs the following functions:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 This script requires use of the package dplyr.  For more information on dplyr, please refer to:
-http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html
-http://cran.r-project.org/web/packages/dplyr/dplyr.pdf
+* [Introduction to dplyr]
+* [dplyr Reference]
 
 To execute run_analysis.R:
 
@@ -42,6 +42,7 @@ View(summary)
 
 The script displays informative messages about what it is doing.  Here is a sample of the run log:
 
+```
 > source("run_analysis.R")
 
 Attaching package: ‘dplyr’
@@ -118,3 +119,7 @@ Variables not shown: mean(`tBodyAcc-mean()-Y`) (dbl)
 [1] "Restoring the working directory to where it was before ..."
 [1] "Script run_analysis.R completed."
 > 
+```
+
+[Introduction to dplyr]:http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html
+[dplyr Reference]:http://cran.r-project.org/web/packages/dplyr/dplyr.pdf
