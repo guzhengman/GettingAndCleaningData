@@ -1,8 +1,3 @@
-GettingAndCleaningData
-======================
-
-This is my class project for the data scientist Coursera course "Getting And Cleaning Data".
-
 Raw Data for Wearable Computing
 -------------------------------
 
@@ -40,7 +35,7 @@ What You Will Get from run_analysis.R
 
 1. The script will first merge the training and testing measurements to a single data frame named Matrix with unique column labels, and output the tidy data to a file measurements.txt in the "getdata-projectfiles-UCI HAR Dataset" directory which is the top level directory of the downloaded data.  
 2. It will then replace the activity numbers with descriptive names, drop the columns that are not related to mean or standard deviations, compute the mean of all the remaining measurements by subject and by activity, and then output the results to a file summary.txt in the "getdata-projectfiles-UCI HAR Dataset" directory.  
-3. You can browse the files with Notepad++, or the data frames that were used to write to the output files with the View command in R, e.g. View(summary)
+3. You can browse the files with Notepad++ or RStudio, or the data frames that were used to write to the output files with the View command in R, e.g. View(summary)
 4. The script displays informative messages about what it is doing.  Here is a sample of the run log:
 
 ```
