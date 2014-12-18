@@ -4,173 +4,172 @@ Code Book for *summary.txt*
  The *summary.txt* file is created by the *run_analysis.R* script.  It has 81 variables which are described below.
  
  
- [1] "subj" - subject, a number between 1 and 30
+ [1] subj - subject, a number between 1 and 30
  
- [2] "acty" - activity, a factor of 6 levels:
+ [2] acty - activity, a factor of 6 levels:
               WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
  
 Variables 3 through 81 are the means (averages) of measurements grouped by subject and activity.  The acronyms in the variable names, e.g t, Body, Acc, Jerk, etc are explained in the features.txt file which is supplied along with the raw data files.
  
- [3] "mean(`tBodyAcc-mean()-X`)"
+ [3] meantBodyAccMeanX
  
- [4] "mean(`tBodyAcc-mean()-Y`)"
+ [4] meantBodyAccMeanY
  
- [5] "mean(`tBodyAcc-mean()-Z`)"
+ [5] meantBodyAccMeanZ
  
- [6] "mean(`tGravityAcc-mean()-X`)"
+ [6] meantGravityAccMeanX
  
- [7] "mean(`tGravityAcc-mean()-Y`)"
+ [7] meantGravityAccMeanY
  
- [8] "mean(`tGravityAcc-mean()-Z`)"
+ [8] meantGravityAccMeanZ
  
- [9] "mean(`tBodyAccJerk-mean()-X`)"
+ [9] meantBodyAccJerkMeanX
  
-[10] "mean(`tBodyAccJerk-mean()-Y`)"
+[10] meantBodyAccJerkMeanY
 
-[11] "mean(`tBodyAccJerk-mean()-Z`)"
+[11] meantBodyAccJerkMeanZ
 
-[12] "mean(`tBodyGyro-mean()-X`)"
+[12] meantBodyGyroMeanX
 
-[13] "mean(`tBodyGyro-mean()-Y`)"
+[13] meantBodyGyroMeanY
 
-[14] "mean(`tBodyGyro-mean()-Z`)"
+[14] meantBodyGyroMeanZ
 
-[15] "mean(`tBodyGyroJerk-mean()-X`)"
+[15] meantBodyGyroJerkMeanX
 
-[16] "mean(`tBodyGyroJerk-mean()-Y`)"
+[16] meantBodyGyroJerkMeanY
 
-[17] "mean(`tBodyGyroJerk-mean()-Z`)"
+[17] meantBodyGyroJerkMeanZ
 
-[18] "mean(`tBodyAccMag-mean()`)"
+[18] meantBodyAccMagMean
 
-[19] "mean(`tGravityAccMag-mean()`)"
+[19] meantGravityAccMagMean
 
-[20] "mean(`tBodyAccJerkMag-mean()`)"
+[20] meantBodyAccJerkMagMean
 
-[21] "mean(`tBodyGyroMag-mean()`)"
+[21] meantBodyGyroMagMean
 
-[22] "mean(`tBodyGyroJerkMag-mean()`)"
+[22] meantBodyGyroJerkMagMean
 
-[23] "mean(`fBodyAcc-mean()-X`)"
+[23] meanfBodyAccMeanX
 
-[24] "mean(`fBodyAcc-mean()-Y`)"
+[24] meanfBodyAccMeanY
 
-[25] "mean(`fBodyAcc-mean()-Z`)"
+[25] meanfBodyAccMeanZ
 
-[26] "mean(`fBodyAcc-meanFreq()-X`)"
+[26] meanfBodyAccMeanFreqX
 
-[27] "mean(`fBodyAcc-meanFreq()-Y`)"
+[27] meanfBodyAccMeanFreqY
 
-[28] "mean(`fBodyAcc-meanFreq()-Z`)"
+[28] meanfBodyAccMeanFreqZ
 
-[29] "mean(`fBodyAccJerk-mean()-X`)"
+[29] meanfBodyAccJerkMeanX
 
-[30] "mean(`fBodyAccJerk-mean()-Y`)"
+[30] meanfBodyAccJerkMeanY
 
-[31] "mean(`fBodyAccJerk-mean()-Z`)"
+[31] meanfBodyAccJerkMeanZ
 
-[32] "mean(`fBodyAccJerk-meanFreq()-X`)"
+[32] meanfBodyAccJerkMeanFreqX
 
-[33] "mean(`fBodyAccJerk-meanFreq()-Y`)"
+[33] meanfBodyAccJerkMeanFreqY
 
-[34] "mean(`fBodyAccJerk-meanFreq()-Z`)"
+[34] meanfBodyAccJerkMeanFreqZ
 
-[35] "mean(`fBodyGyro-mean()-X`)"
+[35] meanfBodyGyroMeanX
 
-[36] "mean(`fBodyGyro-mean()-Y`)"
+[36] meanfBodyGyroMeanY
 
-[37] "mean(`fBodyGyro-mean()-Z`)"
+[37] meanfBodyGyroMeanZ
 
-[38] "mean(`fBodyGyro-meanFreq()-X`)"
+[38] meanfBodyGyroMeanFreqX
 
-[39] "mean(`fBodyGyro-meanFreq()-Y`)"
+[39] meanfBodyGyroMeanFreqY
 
-[40] "mean(`fBodyGyro-meanFreq()-Z`)"
+[40] meanfBodyGyroMeanFreqZ
 
-[41] "mean(`fBodyAccMag-mean()`)"
+[41] meanfBodyAccMagMean
 
-[42] "mean(`fBodyAccMag-meanFreq()`)"
+[42] meanfBodyAccMagMeanFreq
 
-[43] "mean(`fBodyBodyAccJerkMag-mean()`)"
+[43] meanfBodyBodyAccJerkMagMean
 
-[44] "mean(`fBodyBodyAccJerkMag-meanFreq()`)"
+[44] meanfBodyBodyAccJerkMagMeanFreq
 
-[45] "mean(`fBodyBodyGyroMag-mean()`)"
+[45] meanfBodyBodyGyroMagMean
 
-[46] "mean(`fBodyBodyGyroMag-meanFreq()`)"
+[46] meanfBodyBodyGyroMagMeanFreq
 
-[47] "mean(`fBodyBodyGyroJerkMag-mean()`)"
+[47] meanfBodyBodyGyroJerkMagMean
 
-[48] "mean(`fBodyBodyGyroJerkMag-meanFreq()`)"
+[48] meanfBodyBodyGyroJerkMagMeanFreq
 
-[49] "mean(`tBodyAcc-std()-X`)"
+[49] meantBodyAccStdX
 
-[50] "mean(`tBodyAcc-std()-Y`)"
+[50] meantBodyAccStdY
 
-[51] "mean(`tBodyAcc-std()-Z`)"
+[51] meantBodyAccStdZ
 
-[52] "mean(`tGravityAcc-std()-X`)"
+[52] meantGravityAccStdX
 
-[53] "mean(`tGravityAcc-std()-Y`)"
+[53] meantGravityAccStdY
 
-[54] "mean(`tGravityAcc-std()-Z`)"
+[54] meantGravityAccStdZ
 
-[55] "mean(`tBodyAccJerk-std()-X`)"
+[55] meantBodyAccJerkStdX
 
-[56] "mean(`tBodyAccJerk-std()-Y`)"
+[56] meantBodyAccJerkStdY
 
-[57] "mean(`tBodyAccJerk-std()-Z`)"
+[57] meantBodyAccJerkStdZ
 
-[58] "mean(`tBodyGyro-std()-X`)"
+[58] meantBodyGyroStdX
 
-[59] "mean(`tBodyGyro-std()-Y`)"
+[59] meantBodyGyroStdY
 
-[60] "mean(`tBodyGyro-std()-Z`)"
+[60] meantBodyGyroStdZ
 
-[61] "mean(`tBodyGyroJerk-std()-X`)"
+[61] meantBodyGyroJerkStdX
 
-[62] "mean(`tBodyGyroJerk-std()-Y`)"
+[62] meantBodyGyroJerkStdY
 
-[63] "mean(`tBodyGyroJerk-std()-Z`)"
+[63] meantBodyGyroJerkStdZ
 
-[64] "mean(`tBodyAccMag-std()`)"             
+[64] meantBodyAccMagStd
 
-[65] "mean(`tGravityAccMag-std()`)"         
+[65] meantGravityAccMagStd
 
-[66] "mean(`tBodyAccJerkMag-std()`)"         
+[66] meantBodyAccJerkMagStd
 
-[67] "mean(`tBodyGyroMag-std()`)"           
+[67] meantBodyGyroMagStd
 
-[68] "mean(`tBodyGyroJerkMag-std()`)"        
+[68] meantBodyGyroJerkMagStd
 
-[69] "mean(`fBodyAcc-std()-X`)"             
+[69] meanfBodyAccStdX
 
-[70] "mean(`fBodyAcc-std()-Y`)"             
+[70] meanfBodyAccStdY
 
-[71] "mean(`fBodyAcc-std()-Z`)"           
+[71] meanfBodyAccStdZ
 
-[72] "mean(`fBodyAccJerk-std()-X`)"     
+[72] meanfBodyAccJerkStdX
 
-[73] "mean(`fBodyAccJerk-std()-Y`)"      
+[73] meanfBodyAccJerkStdY
 
-[74] "mean(`fBodyAccJerk-std()-Z`)"       
+[74] meanfBodyAccJerkStdZ
 
-[75] "mean(`fBodyGyro-std()-X`)"          
+[75] meanfBodyGyroStdX
 
-[76] "mean(`fBodyGyro-std()-Y`)"         
+[76] meanfBodyGyroStdY
 
-[77] "mean(`fBodyGyro-std()-Z`)"       
+[77] meanfBodyGyroStdZ
 
-[78] "mean(`fBodyAccMag-std()`)"        
+[78] meanfBodyAccMagStd
 
-[79] "mean(`fBodyBodyAccJerkMag-std()`)"
+[79] meanfBodyBodyAccJerkMagStd
 
-[80] "mean(`fBodyBodyGyroMag-std()`)"
+[80] meanfBodyBodyGyroMagStd
 
-[81] "mean(`fBodyBodyGyroJerkMag-std()`)"
+[81] meanfBodyBodyGyroJerkMagStd
 
-
-The contents of the text file *features_info.txt* is reproduced below:
+The contents of the file *features_info.txt* is reproduced below:
 
 Feature Selection 
 =================
