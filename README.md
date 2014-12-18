@@ -104,13 +104,12 @@ Source: local data frame [5 x 4]
 Source: local data frame [5 x 4]
 Groups: subj
 
-  subj               acty mean(`tBodyAcc-mean()-X`)
-1    1             LAYING                 0.2215982
-2    1            SITTING                 0.2612376
-3    1           STANDING                 0.2789176
-4    1            WALKING                 0.2773308
-5    1 WALKING_DOWNSTAIRS                 0.2891883
-Variables not shown: mean(`tBodyAcc-mean()-Y`) (dbl)
+  subj               acty meantBodyAccMeanX meantBodyAccMeanY
+1    1             LAYING         0.2215982      -0.040513953
+2    1            SITTING         0.2612376      -0.001308288
+3    1           STANDING         0.2789176      -0.016137590
+4    1            WALKING         0.2773308      -0.017383819
+5    1 WALKING_DOWNSTAIRS         0.2891883      -0.009918505
 [1] "Writing out the means to file summary.txt ..."
 [1] "Restoring the working directory to where it was before ..."
 [1] "Script run_analysis.R completed."
