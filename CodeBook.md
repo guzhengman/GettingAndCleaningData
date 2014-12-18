@@ -6,7 +6,7 @@ Code Book for *summary.txt*
  
  [1] "subj" - subject, a number between 1 and 30
  
- [2] "acty" - activity, a descriptive character string taking one of these 6 values:
+ [2] "acty" - activity, a factor of 6 levels:
               WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
  
 Variables 3 through 81 are the means (averages) of measurements grouped by subject and activity.  The acronyms in the variable names, e.g t, Body, Acc, Jerk, etc are explained in the features.txt file which is supplied along with the raw data files.
