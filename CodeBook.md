@@ -1,5 +1,16 @@
-Code Book for *summary.txt*
-===========================
+Raw Data
+========
+
+The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+The raw data can be down loaded from this link:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+Tidy Data
+=========
  
  The *summary.txt* file is created by the *run_analysis.R* script.  It has 81 variables which are described below.
  
@@ -170,10 +181,7 @@ Variables 3 through 81 are the means (averages) of measurements grouped by subje
 [81] meanfBodyBodyGyroJerkMagStd
 
 
-The contents of the file *features_info.txt* accessible from the link
-https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
-is reproduced below:
+The contents of the file *features_info.txt* is reproduced below:
 
 Feature Selection 
 =================
