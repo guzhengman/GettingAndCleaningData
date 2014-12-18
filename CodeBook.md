@@ -169,7 +169,11 @@ Variables 3 through 81 are the means (averages) of measurements grouped by subje
 
 [81] meanfBodyBodyGyroJerkMagStd
 
-The contents of the file *features_info.txt* is reproduced below:
+
+The contents of the file *features_info.txt* accessible from the link
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+is reproduced below:
 
 Feature Selection 
 =================
