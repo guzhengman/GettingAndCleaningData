@@ -155,6 +155,18 @@ dots <- paste ("mean(", names, ")", sep="")
 # the minus sign "-" in the variable namesthere will trigger parsing error.
 # See http://cran.rstudio.com/web/packages/dplyr/vignettes/nse.html
 summary <- summarise_(bySubjActy, .dots=dots)
+
+# remove special characters from column names
+names <- gsub("[\\`\\(\\)]","",colnames(summary))
+# and capitalize acronyms while dropping the dashes 
+# except for the "f" and "t" after the initial "mean"
+names <- gsub("-mean","Mean",names)
+names <- gsub("-std","Std",names)
+names <- gsub("-X","X",names)
+names <- gsub("-Y","Y",names)
+names <- gsub("-Z","Z",names)
+colnames(summary) <- names
+
 print("Let's take a look at the summarized data ...")
 print(summary[1:5,1:4])
 
